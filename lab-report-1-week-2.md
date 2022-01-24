@@ -31,6 +31,11 @@ One of the most time consuming parts of interacting with the server is having to
 ## Step 6: **Optimizing Remote Running**
 
 The number one tip for helping to increase effeciency when interacting with the remote server is to queue up commands and then use the arrow keys to repeat them when necessary. Especially if you are not a skileld typist, using the arrow keys really does help to make repeating commands a less arduous process. The other tip that we found useful was queueuing up commands on an `ssh` by using `ssh cs15lwi22xx@ieng6.ucsd.edu "command1; command2;"`. This allows you to run commands on the server in the same step as connecting. This also made a significant increase in terms of effeciently connecting to the server. 
+In my testing I was able to get a common task, like pushing a file to the server, then executing said file on the server down to 5 keystrokes: 
+1. **Up Arrow** to retrieve `scp` command
+2. **Enter** to execute the `scp`
+3. **Up Arrow** x2 to retrieve `ssh` command. Here I would utilize the ability to queue up multiple commands to be ran on the server directly after `ssh`ing in.
+4. **Enter** to execute the `ssh` line. 
 ![Image](/images/report1/optimization.png)
 
 ## **Conclusion**
