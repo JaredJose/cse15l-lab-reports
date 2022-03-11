@@ -5,7 +5,11 @@
 ---
 In order to highlight differences in the outputs, we used an implementation of `getLinks()` which worked on a file directory versus just a singular `.md` file. We then saved the output of said run to a file called `results.txt`. We did this process for both our groups implementation of MarkdownParse and the provided implementation of MarkdownParse. Then, in order to highlight the differences between our implementation and the provided implementation, we used the `diff` command to compare the `results.txt` files. 
 
-The actual command that I ran on my `ieng6` instance is as follows: `diff ~/week9/jared-md-parse/markdown-parse/results.txt ~/week9/markdown-parse/results.txt`. The resulting output of this is:
+The actual command that I ran on my `ieng6` instance is as follows: 
+
+```diff ~/week9/jared-md-parse/markdown-parse/results.txt ~/week9/markdown-parse/results.txt```. 
+
+The resulting output of this is:
 
 ![Image](/images/report5/diff_output.png)
 
